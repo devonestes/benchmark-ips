@@ -1,4 +1,5 @@
 require "minitest/autorun"
+require "minitest/testmetrics"
 require "benchmark/ips"
 require "stringio"
 

@@ -1,10 +1,6 @@
 language: ruby
 sudo: false
 rvm:
-  - 1.9.2
-  - 1.9.3
-  - 2.0.0
-  - 2.1.0
-  - 2.1.2
-  - 2.2.2
-  - ruby-head
+  - 2.5.1
+
+script: "TESTMETRICS_PROJECT_KEY=cuin4Zj8V3_0UtP7c5P1YA bundle exec rake test"
